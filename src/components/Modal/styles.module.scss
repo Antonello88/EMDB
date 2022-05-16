@@ -1,0 +1,20 @@
+.Modal {
+    position: fixed;
+    top: calc(50% - 110px);
+    left: calc(50% - 110px);
+    padding: 20px;
+    border: 2px solid grey;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    max-width: 200px;
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.35);
+    transform: all 0.35s;
+
+    &__paragraph {
+        color: white;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+}
